@@ -6,6 +6,7 @@
 const Chai = require('chai');
 const Expect = Chai.expect;
 const Assert = Chai.assert;
+const libFS = require('fs');
 
 const libFable = require('fable');
 const libMeadowConnectionSQLite = require('../source/Meadow-Connection-SQLite.js');
@@ -38,7 +39,19 @@ suite
 	'Connection',
 	()=>
 	{
-		setup(()=>{});
+		setup(
+			(fDone) =>
+			{
+				if (libFS.existsSync('./dist/FableTest.db'))
+				{
+					libFS.unlinkSync('./dist/FableTest.db');
+				}
+
+				let _Fable = new libFable(_FableConfig);
+				_Fable.serviceManager.addServiceType('MeadowSQLiteProvider', libMeadowConnectionSQLite);
+				_Fable.serviceManager.instantiateServiceProvider('MeadowSQLiteProvider');
+				return fDone();
+			});
 
 		suite
 		(
@@ -52,7 +65,6 @@ suite
 					{
 						let _Fable = new libFable(_FableConfig);
 						_Fable.serviceManager.addServiceType('MeadowSQLiteProvider', libMeadowConnectionSQLite);
-
 						_Fable.serviceManager.instantiateServiceProvider('MeadowSQLiteProvider');
 
 						Expect(_Fable.MeadowSQLiteProvider).to.be.an('object');
@@ -66,6 +78,7 @@ suite
 								}
 								let tmpRows = _Fable.MeadowSQLiteProvider.db.prepare(`SELECT * FROM FableTest`).get();
 								Expect(tmpRows).to.be.an('array');
+								return fDone();
 							}
 						);
 					}

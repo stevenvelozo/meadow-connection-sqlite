@@ -42,10 +42,11 @@
     },
     "homepage": "https://github.com/stevenvelozo/meadow-connection-sqlite",
     "devDependencies": {
-        "quackage": "^1.0.19"
+        "quackage": "^1.0.42",
+        "retold-harness": "^1.0.4"
     },
     "dependencies": {
-        "better-sqlite3": "^9.6.0",
-        "fable-serviceproviderbase": "^3.0.4"
+        "better-sqlite3": "^12.3.0",
+        "fable-serviceproviderbase": "^3.0.15"
     }
 }
