@@ -54,7 +54,39 @@ The database file is created automatically if it does not exist. WAL journal mod
 
 ## Step 2: Create a Table
 
-Use SQLite-native `CREATE TABLE` syntax through `db.exec()`:
+### Using createTable()
+
+Pass a Meadow table schema object to `createTable()` and it generates the correct SQLite DDL automatically:
+
+```javascript
+let tmpBookSchema =
+{
+	TableName: 'Book',
+	Columns:
+	[
+		{ Column: 'IDBook', DataType: 'ID' },
+		{ Column: 'GUIDBook', DataType: 'GUID' },
+		{ Column: 'Title', DataType: 'String', Size: '256' },
+		{ Column: 'Author', DataType: 'String', Size: '128' },
+		{ Column: 'YearPublished', DataType: 'Numeric' },
+		{ Column: 'Price', DataType: 'Decimal', Size: '10,2' },
+		{ Column: 'InPrint', DataType: 'Boolean' },
+		{ Column: 'CreateDate', DataType: 'DateTime' },
+		{ Column: 'UpdateDate', DataType: 'DateTime' }
+	]
+};
+
+_Fable.MeadowSQLiteProvider.createTable(tmpBookSchema,
+	(pError) =>
+	{
+		if (pError) { _Fable.log.error(`Create table failed: ${pError}`); return; }
+		// Table is ready for queries
+	});
+```
+
+### Using raw db.exec()
+
+For tables with custom constraints, expressions, or indexes, use `db.exec()` directly:
 
 ```javascript
 tmpDB.exec(`

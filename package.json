@@ -1,6 +1,6 @@
 {
     "name": "meadow-connection-sqlite",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Meadow SQLite Plugin",
     "main": "source/Meadow-Connection-SQLite.js",
     "scripts": {

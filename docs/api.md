@@ -251,6 +251,4 @@ The provider logs connection events through the Fable logging system:
 
 ## Known Limitations
 
-- **Table generation** — The `generateCreateTableStatement()` and `createTable()` methods produce MSSQL-syntax SQL that is not compatible with SQLite. Use `db.exec()` with SQLite-native `CREATE TABLE` statements instead.
-- **Prepared statement getter** — The `preparedStatement` property references an uninitialized connection pool. Use `db.prepare()` directly for prepared statements.
 - **No async queries** — better-sqlite3 is synchronous by design. For CPU-bound workloads, consider running queries in a worker thread.

@@ -131,15 +131,15 @@ Generate a `DROP TABLE IF EXISTS` SQL statement for the given table name.
 
 | Meadow Type | SQLite Column |
 |-------------|---------------|
-| `ID` | `INT NOT NULL IDENTITY PRIMARY KEY` |
-| `GUID` | `VARCHAR(254)` with default GUID |
-| `ForeignKey` | `INT UNSIGNED NOT NULL DEFAULT 0` |
-| `Numeric` | `INT NOT NULL DEFAULT 0` |
-| `Decimal` | `DECIMAL(size)` |
-| `String` | `VARCHAR(size) DEFAULT ''` |
+| `ID` | `INTEGER PRIMARY KEY AUTOINCREMENT` |
+| `GUID` | `TEXT DEFAULT '0000...'` |
+| `ForeignKey` | `INTEGER NOT NULL DEFAULT 0` |
+| `Numeric` | `INTEGER NOT NULL DEFAULT 0` |
+| `Decimal` | `REAL` |
+| `String` | `TEXT NOT NULL DEFAULT ''` |
 | `Text` | `TEXT` |
-| `DateTime` | `DATETIME` |
-| `Boolean` | `TINYINT DEFAULT 0` |
+| `DateTime` | `TEXT` |
+| `Boolean` | `INTEGER NOT NULL DEFAULT 0` |
 
 ## Part of the Retold Framework
 

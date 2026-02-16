@@ -36,19 +36,16 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 
 	generateDropTableStatement(pTableName)
 	{
-		let tmpDropTableStatement = `IF OBJECT_ID('dbo.[${pTableName}]', 'U') IS NOT NULL\n`;
-		tmpDropTableStatement += `    DROP TABLE dbo.[${pTableName}];\n`;
-		tmpDropTableStatement += `GO`;
-		return tmpDropTableStatement;
+		return `DROP TABLE IF EXISTS ${pTableName};`;
 	}
 
 	generateCreateTableStatement(pMeadowTableSchema)
 	{
-		this.log.info(`--> Building the table create string for ${pMeadowTableSchema} ...`);
+		this.log.info(`--> Building the table create string for ${pMeadowTableSchema.TableName} ...`);
 
 		let tmpPrimaryKey = false;
 		let tmpCreateTableStatement = `--   [ ${pMeadowTableSchema.TableName} ]`;
-		tmpCreateTableStatement += `\nCREATE TABLE [dbo].[${pMeadowTableSchema.TableName}]\n    (`;
+		tmpCreateTableStatement += `\nCREATE TABLE IF NOT EXISTS ${pMeadowTableSchema.TableName}\n    (`;
 		for (let j = 0; j < pMeadowTableSchema.Columns.length; j++)
 		{
 			let tmpColumn = pMeadowTableSchema.Columns[j];
@@ -60,53 +57,39 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 			}
 
 			tmpCreateTableStatement += `\n`;
-			// Dump out each column......
 			switch (tmpColumn.DataType)
 			{
 				case 'ID':
-					// if (this.options.AllowIdentityInsert)
-					// {
-					// 	tmpCreateTableStatement += `        [${tmpColumn.Column}] INT NOT NULL PRIMARY KEY`;
-					// }
-					// else
-					// {
-					// There is debate on whether IDENTITY(1,1) is better or not.
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] INT NOT NULL IDENTITY PRIMARY KEY`;
-					//}
+					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER PRIMARY KEY AUTOINCREMENT`;
 					tmpPrimaryKey = tmpColumn.Column;
 					break;
 				case 'GUID':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] VARCHAR(254) DEFAULT '00000000-0000-0000-0000-000000000000'`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT DEFAULT '00000000-0000-0000-0000-000000000000'`;
 					break;
 				case 'ForeignKey':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] INT UNSIGNED NOT NULL DEFAULT 0`;
-					tmpPrimaryKey = tmpColumn.Column;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
 					break;
 				case 'Numeric':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] INT NOT NULL DEFAULT 0`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
 					break;
 				case 'Decimal':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] DECIMAL(${tmpColumn.Size})`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} REAL`;
 					break;
 				case 'String':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] VARCHAR(${tmpColumn.Size}) DEFAULT ''`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT NOT NULL DEFAULT ''`;
 					break;
 				case 'Text':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] TEXT`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT`;
 					break;
 				case 'DateTime':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] DATETIME`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT`;
 					break;
 				case 'Boolean':
-					tmpCreateTableStatement += `        [${tmpColumn.Column}] TINYINT DEFAULT 0`;
+					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
 					break;
 				default:
 					break;
 			}
-		}
-		if (tmpPrimaryKey)
-		{
-			//				tmpCreateTableStatement += `,\n\n        PRIMARY KEY (${tmpPrimaryKey$})`;
 		}
 		tmpCreateTableStatement += `\n    );`;
 
@@ -136,34 +119,17 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 	createTable(pMeadowTableSchema, fCallback)
 	{
 		let tmpCreateTableStatement = this.generateCreateTableStatement(pMeadowTableSchema);
-		this._ConnectionPool.query(tmpCreateTableStatement)
-			.then((pResult) =>
-			{
-				this.log.info(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} Success`);
-				this.log.warn(`Meadow-SQLite Create Table Statement: ${tmpCreateTableStatement}`)
-				return fCallback();
-			})
-			.catch((pError) =>
-			{
-				if (pError.hasOwnProperty('originalError')
-					// TODO: This check may be extraneous; not familiar enough with the sqlite node driver yet
-					&& (pError.originalError.hasOwnProperty('info'))
-					// TODO: Validate that there isn't a better way to find this (pError.code isn't explicit enough)
-					&& (pError.originalError.info.message.indexOf("There is already an object named") == 0)
-					&& (pError.originalError.info.message.indexOf('in the database.') > 0))
-				{
-					// The table already existed; log a warning but keep on keeping on.
-					//this.log.warn(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} executed but table already existed.`);
-					//this.log.warn(`Meadow-SQLite Create Table Statement: ${tmpCreateTableStatement}`)
-					return fCallback();
-				}
-				else
-				{
-					this.log.error(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} failed!`, pError);
-					//this.log.warn(`Meadow-SQLite Create Table Statement: ${tmpCreateTableStatement}`)
-					return fCallback(pError);
-				}
-			});
+		try
+		{
+			this._database.exec(tmpCreateTableStatement);
+			this.log.info(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} Success`);
+			return fCallback();
+		}
+		catch (pError)
+		{
+			this.log.error(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} failed!`, pError);
+			return fCallback(pError);
+		}
 	}
 
 	connect()
@@ -222,13 +188,15 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 
 	get preparedStatement()
 	{
-		if (this.connected && this._ConnectionPool)
+		if (this.connected && this._database)
 		{
-			return new libSQLite.PreparedStatement(this._ConnectionPool);
+			// In better-sqlite3, prepared statements are created via db.prepare(sql)
+			// This getter is maintained for API consistency with other providers.
+			return this._database;
 		}
 		else
 		{
-			throw new Error('The Meadow Microsoft SQL provider could not create a prepared statement; disconnected or no valid connection pool.');
+			throw new Error('The Meadow SQLite provider is not connected; cannot create a prepared statement.');
 		}
 	}
 
