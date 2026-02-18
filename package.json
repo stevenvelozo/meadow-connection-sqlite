@@ -1,6 +1,6 @@
 {
     "name": "meadow-connection-sqlite",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "Meadow SQLite Plugin",
     "main": "source/Meadow-Connection-SQLite.js",
     "scripts": {
@@ -42,11 +42,11 @@
     },
     "homepage": "https://github.com/stevenvelozo/meadow-connection-sqlite",
     "devDependencies": {
-        "quackage": "^1.0.48",
-        "retold-harness": "^1.0.6"
+        "quackage": "^1.0.51",
+        "retold-harness": "^1.1.0"
     },
     "dependencies": {
-        "better-sqlite3": "^12.3.0",
-        "fable-serviceproviderbase": "^3.0.16"
+        "better-sqlite3": "^12.6.2",
+        "fable-serviceproviderbase": "^3.0.18"
     }
 }
