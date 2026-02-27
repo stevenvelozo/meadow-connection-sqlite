@@ -6,8 +6,8 @@
     "scripts": {
         "start": "node source/Meadow-Connection-SQLite.js",
         "build": "npx quack build",
-        "test": "npx mocha -u tdd -R spec",
-        "tests": "npx mocha -u tdd --exit -R spec --grep",
+        "test": "npx quack test",
+        "tests": "npx quack test -g",
         "coverage": "npx quack coverage"
     },
     "mocha": {
