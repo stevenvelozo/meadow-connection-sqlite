@@ -1,6 +1,6 @@
 {
     "name": "meadow-connection-sqlite",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "description": "Meadow SQLite Plugin",
     "main": "source/Meadow-Connection-SQLite.js",
     "scripts": {
@@ -47,6 +47,6 @@
     },
     "dependencies": {
         "better-sqlite3": "^12.6.2",
-        "fable-serviceproviderbase": "^3.0.18"
+        "fable-serviceproviderbase": "^3.0.19"
     }
 }
