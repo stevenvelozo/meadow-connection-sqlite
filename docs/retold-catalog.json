@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-02-18T03:34:33.223Z",
+	"Generated": "2026-03-01T22:42:54.080Z",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
 	"Groups": [
@@ -25,6 +25,27 @@
 			"Key": "docs",
 			"Description": "",
 			"Modules": [
+				{
+					"Name": "api",
+					"Repo": "api",
+					"Group": "docs",
+					"Branch": "master",
+					"HasDocs": true,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": [
+						"api/SQLite.md",
+						"api/connect.md",
+						"api/connectAsync.md",
+						"api/createTable.md",
+						"api/createTables.md",
+						"api/db.md",
+						"api/generateCreateTableStatement.md",
+						"api/generateDropTableStatement.md",
+						"api/preparedStatement.md",
+						"api/reference.md"
+					]
+				},
 				{
 					"Name": "css",
 					"Repo": "css",

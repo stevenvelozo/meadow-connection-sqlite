@@ -10,12 +10,13 @@ A SQLite database connection provider for the Meadow ORM. Wraps [better-sqlite3]
 
 ## Features
 
-- **Better-SQLite3 Wrapper** - Synchronous, high-performance SQLite access via [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)
-- **Fable Service Provider** - Registers with a Fable instance for dependency injection, logging, and configuration
-- **WAL Journal Mode** - Automatically enables Write-Ahead Logging for performance on connect
-- **Schema-Driven DDL** - Generates `CREATE TABLE` statements from Meadow table schemas with support for ID, GUID, ForeignKey, Numeric, Decimal, String, Text, DateTime, and Boolean column types
-- **Connection Safety** - Guards against double-connect and missing file path errors with descriptive logging
-- **Direct Database Access** - Exposes the underlying `better-sqlite3` database instance via `db` getter
+- **Better-SQLite3 Wrapper** -- Synchronous, high-performance SQLite access via [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)
+- **Fable Service Provider** -- Registers with a Fable instance for dependency injection, logging, and configuration
+- **WAL Journal Mode** -- Automatically enables Write-Ahead Logging for performance on connect
+- **Schema-Driven DDL** -- Generates `CREATE TABLE` statements from Meadow table schemas with support for ID, GUID, ForeignKey, Numeric, Decimal, String, Text, DateTime, and Boolean column types
+- **In-Memory Mode** -- Use `:memory:` as the file path for ephemeral databases in tests and prototypes
+- **Connection Safety** -- Guards against double-connect and missing file path errors with descriptive logging
+- **Direct Database Access** -- Exposes the underlying `better-sqlite3` database instance and module via getters
 
 ## Installation
 
@@ -167,8 +168,13 @@ npm run coverage
 
 ## Related Packages
 
-- [meadow](https://github.com/stevenvelozo/meadow) - Data access and ORM
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
+- [meadow](https://github.com/stevenvelozo/meadow) -- Data access and ORM
+- [foxhound](https://github.com/stevenvelozo/foxhound) -- Query DSL used by Meadow
+- [stricture](https://github.com/stevenvelozo/stricture) -- Schema definition tool
+- [meadow-endpoints](https://github.com/stevenvelozo/meadow-endpoints) -- RESTful endpoint generation
+- [meadow-connection-mysql](https://github.com/stevenvelozo/meadow-connection-mysql) -- MySQL connection provider
+- [meadow-connection-mssql](https://github.com/stevenvelozo/meadow-connection-mssql) -- MSSQL connection provider
+- [fable](https://github.com/stevenvelozo/fable) -- Application services framework
 
 ## License
 

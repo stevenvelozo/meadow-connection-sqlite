@@ -1,6 +1,6 @@
 {
-	"Generated": "2026-02-18T03:34:33.304Z",
-	"DocumentCount": 0,
+	"Generated": "2026-03-01T22:42:54.183Z",
+	"DocumentCount": 10,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -9,11 +9,5824 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/docs/api/api/SQLite.md",
+				[
+					0,
+					2.339,
+					1,
+					4.773
+				]
+			],
+			[
+				"module/docs/api/api/SQLite.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/SQLite.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/SQLite.md",
+				[
+					0,
+					0.309,
+					1,
+					1.016,
+					4,
+					0.088,
+					5,
+					2.084,
+					6,
+					1.626,
+					7,
+					1.775,
+					8,
+					1.192,
+					9,
+					1.372,
+					10,
+					1.97,
+					11,
+					0.176,
+					12,
+					0.176,
+					13,
+					0.099,
+					14,
+					0.227,
+					15,
+					0.176,
+					16,
+					0.763,
+					17,
+					1.372,
+					18,
+					0.227,
+					19,
+					1.075,
+					20,
+					1.775,
+					21,
+					0.444,
+					22,
+					2.298,
+					23,
+					1.192,
+					24,
+					2.387,
+					25,
+					2.387,
+					26,
+					2.387,
+					27,
+					1.372,
+					28,
+					1.775,
+					29,
+					1.071,
+					30,
+					0.594,
+					31,
+					1.775,
+					32,
+					0.444,
+					33,
+					1.776,
+					34,
+					0.63,
+					35,
+					0.63,
+					36,
+					1.775,
+					37,
+					1.075,
+					38,
+					0.816,
+					39,
+					2.387,
+					40,
+					0.056,
+					41,
+					1.071
+				]
+			],
+			[
+				"title/docs/api/api/connect.md",
+				[
+					32,
+					3.045
+				]
+			],
+			[
+				"module/docs/api/api/connect.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/connect.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/connect.md",
+				[
+					4,
+					0.061,
+					8,
+					0.914,
+					9,
+					1.51,
+					10,
+					1.51,
+					11,
+					0.193,
+					12,
+					0.193,
+					13,
+					0.061,
+					16,
+					0.632,
+					19,
+					1.143,
+					30,
+					0.505,
+					32,
+					0.486,
+					34,
+					0.694,
+					35,
+					0.694,
+					38,
+					0.694,
+					40,
+					0.061,
+					41,
+					1.179,
+					42,
+					1.474,
+					43,
+					2.628,
+					44,
+					1.51,
+					45,
+					0.868,
+					46,
+					0.868,
+					47,
+					1.143,
+					48,
+					2.061,
+					49,
+					2.061,
+					50,
+					2.628,
+					51,
+					1.954,
+					52,
+					1.51,
+					53,
+					0.34,
+					54,
+					0.868,
+					55,
+					0.914,
+					56,
+					1.954,
+					57,
+					1.179,
+					58,
+					0.505,
+					59,
+					2.628,
+					60,
+					2.628,
+					61,
+					2.628,
+					62,
+					2.628,
+					63,
+					2.628,
+					64,
+					1.954,
+					65,
+					1.954,
+					66,
+					1.474,
+					67,
+					2.628,
+					68,
+					1.51,
+					69,
+					1.954,
+					70,
+					2.628,
+					71,
+					2.628,
+					72,
+					2.628,
+					73,
+					1.954,
+					74,
+					1.954,
+					75,
+					0.505,
+					76,
+					1.889,
+					77,
+					1.954,
+					78,
+					1.179,
+					79,
+					2.628,
+					80,
+					2.628,
+					81,
+					1.954
+				]
+			],
+			[
+				"title/docs/api/api/connectAsync.md",
+				[
+					82,
+					17.501
+				]
+			],
+			[
+				"module/docs/api/api/connectAsync.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/connectAsync.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/connectAsync.md",
+				[
+					0,
+					0.27,
+					2,
+					0.267,
+					4,
+					0.066,
+					6,
+					0.938,
+					8,
+					0.727,
+					11,
+					0.154,
+					12,
+					0.154,
+					13,
+					0.098,
+					14,
+					0.208,
+					15,
+					0.208,
+					16,
+					0.751,
+					18,
+					0.154,
+					19,
+					0.985,
+					21,
+					0.366,
+					23,
+					0.985,
+					30,
+					0.402,
+					32,
+					0.499,
+					34,
+					0.552,
+					35,
+					0.552,
+					38,
+					0.552,
+					40,
+					0.049,
+					42,
+					0.938,
+					44,
+					1.201,
+					45,
+					0.908,
+					46,
+					0.552,
+					47,
+					1.25,
+					48,
+					1.977,
+					49,
+					1.201,
+					53,
+					0.445,
+					54,
+					0.552,
+					55,
+					0.727,
+					58,
+					0.661,
+					65,
+					1.554,
+					68,
+					1.201,
+					75,
+					0.402,
+					76,
+					1.627,
+					82,
+					1.554,
+					83,
+					2.558,
+					84,
+					1.554,
+					85,
+					2.387,
+					86,
+					2.09,
+					87,
+					1.201,
+					88,
+					1.201,
+					89,
+					1.201,
+					90,
+					0.727,
+					91,
+					1.25,
+					92,
+					0.727,
+					93,
+					1.201,
+					94,
+					1.627,
+					95,
+					1.627,
+					96,
+					1.627,
+					97,
+					0.938,
+					98,
+					1.554,
+					99,
+					2.105,
+					100,
+					1.201,
+					101,
+					1.554,
+					102,
+					1.554,
+					103,
+					1.554,
+					104,
+					1.554,
+					105,
+					1.554,
+					106,
+					1.554,
+					107,
+					1.554,
+					108,
+					2.387,
+					109,
+					0.727,
+					110,
+					2.09,
+					111,
+					2.09,
+					112,
+					1.201,
+					113,
+					2.105,
+					114,
+					1.554,
+					115,
+					1.554,
+					116,
+					1.554,
+					117,
+					2.09,
+					118,
+					1.201,
+					119,
+					0.727,
+					120,
+					0.552
+				]
+			],
+			[
+				"title/docs/api/api/createTable.md",
+				[
+					121,
+					13.441,
+					122,
+					8.109
+				]
+			],
+			[
+				"module/docs/api/api/createTable.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/createTable.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/createTable.md",
+				[
+					4,
+					0.055,
+					11,
+					0.173,
+					12,
+					0.173,
+					13,
+					0.098,
+					14,
+					0.225,
+					15,
+					0.173,
+					16,
+					0.452,
+					18,
+					0.225,
+					21,
+					0.305,
+					28,
+					1.75,
+					32,
+					0.305,
+					37,
+					0.819,
+					40,
+					0.055,
+					45,
+					0.987,
+					46,
+					0.622,
+					47,
+					1.185,
+					53,
+					0.396,
+					54,
+					0.622,
+					55,
+					0.819,
+					57,
+					1.056,
+					58,
+					0.452,
+					75,
+					0.452,
+					87,
+					1.353,
+					88,
+					1.353,
+					89,
+					1.353,
+					90,
+					0.819,
+					91,
+					1.255,
+					93,
+					1.353,
+					94,
+					1.353,
+					95,
+					1.353,
+					96,
+					1.353,
+					97,
+					1.056,
+					109,
+					0.819,
+					119,
+					0.819,
+					120,
+					0.622,
+					121,
+					1.75,
+					122,
+					1.056,
+					123,
+					1.185,
+					124,
+					0.622,
+					125,
+					1.066,
+					126,
+					1.333,
+					127,
+					1.185,
+					128,
+					1.185,
+					129,
+					1.056,
+					130,
+					2.354,
+					131,
+					0.987,
+					132,
+					2.278,
+					133,
+					1.75,
+					134,
+					1.76,
+					135,
+					1.75,
+					136,
+					2.354,
+					137,
+					1.75,
+					138,
+					2.354,
+					139,
+					1.353,
+					140,
+					1.353,
+					141,
+					1.353,
+					142,
+					1.056,
+					143,
+					1.75,
+					144,
+					1.75,
+					145,
+					1.353,
+					146,
+					1.056,
+					147,
+					1.056
+				]
+			],
+			[
+				"title/docs/api/api/createTables.md",
+				[
+					122,
+					8.109,
+					148,
+					13.441
+				]
+			],
+			[
+				"module/docs/api/api/createTables.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/createTables.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/createTables.md",
+				[
+					4,
+					0.055,
+					11,
+					0.173,
+					12,
+					0.173,
+					13,
+					0.098,
+					14,
+					0.225,
+					15,
+					0.173,
+					18,
+					0.225,
+					21,
+					0.496,
+					40,
+					0.055,
+					45,
+					0.62,
+					46,
+					0.807,
+					47,
+					1.183,
+					53,
+					0.396,
+					54,
+					0.62,
+					55,
+					0.817,
+					56,
+					1.746,
+					57,
+					1.053,
+					58,
+					0.451,
+					75,
+					0.451,
+					84,
+					1.746,
+					87,
+					1.349,
+					88,
+					1.349,
+					89,
+					1.349,
+					90,
+					0.817,
+					91,
+					1.064,
+					92,
+					1.064,
+					93,
+					1.349,
+					109,
+					0.817,
+					119,
+					0.817,
+					120,
+					0.62,
+					122,
+					1.053,
+					123,
+					0.817,
+					125,
+					1.064,
+					126,
+					1.403,
+					127,
+					1.3,
+					128,
+					1.064,
+					129,
+					1.372,
+					131,
+					0.62,
+					135,
+					1.746,
+					141,
+					1.349,
+					142,
+					1.053,
+					146,
+					1.372,
+					147,
+					1.053,
+					148,
+					1.746,
+					149,
+					2.347,
+					150,
+					3.057,
+					151,
+					1.746,
+					152,
+					2.347,
+					153,
+					1.349,
+					154,
+					2.274,
+					155,
+					3.057,
+					156,
+					1.746,
+					157,
+					2.347,
+					158,
+					1.746,
+					159,
+					2.347,
+					160,
+					2.347,
+					161,
+					2.347,
+					162,
+					2.347,
+					163,
+					2.347,
+					164,
+					1.349
+				]
+			],
+			[
+				"title/docs/api/api/db.md",
+				[
+					1,
+					4.773,
+					30,
+					3.475
+				]
+			],
+			[
+				"module/docs/api/api/db.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/db.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/db.md",
+				[
+					0,
+					0.266,
+					1,
+					0.84,
+					2,
+					0.263,
+					4,
+					0.083,
+					5,
+					1.181,
+					6,
+					0.922,
+					7,
+					1.528,
+					8,
+					1.107,
+					9,
+					1.181,
+					11,
+					0.151,
+					12,
+					0.151,
+					13,
+					0.099,
+					14,
+					0.151,
+					15,
+					0.151,
+					16,
+					0.709,
+					17,
+					1.181,
+					18,
+					0.151,
+					23,
+					1.107,
+					27,
+					1.181,
+					30,
+					0.395,
+					31,
+					1.528,
+					32,
+					0.412,
+					33,
+					1.963,
+					34,
+					0.902,
+					35,
+					0.84,
+					37,
+					0.715,
+					38,
+					0.543,
+					40,
+					0.048,
+					41,
+					0.922,
+					42,
+					0.922,
+					45,
+					0.543,
+					46,
+					0.543,
+					53,
+					0.362,
+					66,
+					1.255,
+					77,
+					1.528,
+					78,
+					0.922,
+					92,
+					0.973,
+					95,
+					1.181,
+					100,
+					1.181,
+					112,
+					1.608,
+					124,
+					0.902,
+					129,
+					0.922,
+					131,
+					0.543,
+					153,
+					1.181,
+					158,
+					1.528,
+					164,
+					1.181,
+					165,
+					2.54,
+					166,
+					2.055,
+					167,
+					1.528,
+					168,
+					2.055,
+					169,
+					2.798,
+					170,
+					2.055,
+					171,
+					2.055,
+					172,
+					1.528,
+					173,
+					2.055,
+					174,
+					2.055,
+					175,
+					2.055,
+					176,
+					2.798,
+					177,
+					2.798,
+					178,
+					2.055,
+					179,
+					1.608,
+					180,
+					2.055,
+					181,
+					1.181,
+					182,
+					3.416,
+					183,
+					2.055,
+					184,
+					2.055,
+					185,
+					2.055,
+					186,
+					2.055,
+					187,
+					2.055,
+					188,
+					2.055,
+					189,
+					2.055,
+					190,
+					0.922,
+					191,
+					2.055,
+					192,
+					1.181,
+					193,
+					1.181,
+					194,
+					2.055,
+					195,
+					2.055,
+					196,
+					2.081,
+					197,
+					2.055,
+					198,
+					2.055,
+					199,
+					1.181,
+					200,
+					2.055,
+					201,
+					1.181
+				]
+			],
+			[
+				"title/docs/api/api/generateCreateTableStatement.md",
+				[
+					202,
+					17.501
+				]
+			],
+			[
+				"module/docs/api/api/generateCreateTableStatement.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/generateCreateTableStatement.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/generateCreateTableStatement.md",
+				[
+					0,
+					0.444,
+					4,
+					0.056,
+					11,
+					0.121,
+					12,
+					0.121,
+					13,
+					0.101,
+					14,
+					0.252,
+					15,
+					0.207,
+					18,
+					0.121,
+					21,
+					0.213,
+					29,
+					1.073,
+					40,
+					0.038,
+					46,
+					0.434,
+					53,
+					0.31,
+					54,
+					0.434,
+					75,
+					0.316,
+					78,
+					0.738,
+					92,
+					0.832,
+					97,
+					0.738,
+					109,
+					0.572,
+					119,
+					0.572,
+					123,
+					1.077,
+					124,
+					0.744,
+					125,
+					1.077,
+					126,
+					1.194,
+					127,
+					1.194,
+					128,
+					0.832,
+					129,
+					0.738,
+					131,
+					0.632,
+					133,
+					1.223,
+					134,
+					0.945,
+					139,
+					1.972,
+					140,
+					0.945,
+					142,
+					1.073,
+					143,
+					1.223,
+					144,
+					1.223,
+					145,
+					0.945,
+					146,
+					0.738,
+					147,
+					1.073,
+					151,
+					1.223,
+					156,
+					1.223,
+					167,
+					1.223,
+					179,
+					1.375,
+					181,
+					0.945,
+					190,
+					0.738,
+					192,
+					1.62,
+					193,
+					0.945,
+					199,
+					1.375,
+					202,
+					1.223,
+					203,
+					2.302,
+					204,
+					2.096,
+					205,
+					1.779,
+					206,
+					2.096,
+					207,
+					1.645,
+					208,
+					2.096,
+					209,
+					1.223,
+					210,
+					1.223,
+					211,
+					1.645,
+					212,
+					1.223,
+					213,
+					1.645,
+					214,
+					1.645,
+					215,
+					2.392,
+					216,
+					1.645,
+					217,
+					1.645,
+					218,
+					2.096,
+					219,
+					1.645,
+					220,
+					1.223,
+					221,
+					1.779,
+					222,
+					1.779,
+					223,
+					2.392,
+					224,
+					1.375
+				]
+			],
+			[
+				"title/docs/api/api/generateDropTableStatement.md",
+				[
+					225,
+					17.501
+				]
+			],
+			[
+				"module/docs/api/api/generateDropTableStatement.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/generateDropTableStatement.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/generateDropTableStatement.md",
+				[
+					0,
+					0.376,
+					4,
+					0.051,
+					11,
+					0.16,
+					12,
+					0.16,
+					13,
+					0.101,
+					14,
+					0.214,
+					15,
+					0.214,
+					18,
+					0.214,
+					21,
+					0.376,
+					29,
+					1.302,
+					30,
+					0.417,
+					40,
+					0.051,
+					53,
+					0.376,
+					54,
+					0.864,
+					58,
+					0.558,
+					66,
+					0.973,
+					75,
+					0.417,
+					90,
+					0.755,
+					97,
+					0.973,
+					109,
+					0.755,
+					123,
+					1.266,
+					124,
+					0.922,
+					126,
+					1.303,
+					127,
+					0.755,
+					128,
+					1.215,
+					131,
+					0.573,
+					132,
+					1.613,
+					141,
+					1.247,
+					142,
+					0.973,
+					145,
+					2.092,
+					179,
+					1.668,
+					181,
+					1.247,
+					190,
+					0.973,
+					192,
+					1.88,
+					209,
+					1.613,
+					218,
+					1.613,
+					220,
+					1.613,
+					221,
+					2.158,
+					222,
+					2.158,
+					224,
+					1.668,
+					225,
+					1.613,
+					226,
+					2.169,
+					227,
+					2.902,
+					228,
+					2.169,
+					229,
+					2.169,
+					230,
+					2.169
+				]
+			],
+			[
+				"title/docs/api/api/preparedStatement.md",
+				[
+					1,
+					4.773,
+					201,
+					10.389
+				]
+			],
+			[
+				"module/docs/api/api/preparedStatement.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/preparedStatement.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/preparedStatement.md",
+				[
+					0,
+					0.287,
+					1,
+					0.996,
+					2,
+					0.284,
+					4,
+					0.091,
+					11,
+					0.163,
+					12,
+					0.163,
+					13,
+					0.099,
+					14,
+					0.163,
+					15,
+					0.163,
+					16,
+					0.76,
+					17,
+					1.276,
+					18,
+					0.217,
+					19,
+					1.276,
+					21,
+					0.287,
+					23,
+					1.276,
+					27,
+					1.276,
+					29,
+					1.322,
+					30,
+					0.567,
+					32,
+					0.528,
+					34,
+					0.586,
+					35,
+					0.586,
+					36,
+					1.651,
+					37,
+					0.772,
+					38,
+					0.586,
+					40,
+					0.052,
+					41,
+					0.996,
+					52,
+					1.276,
+					58,
+					0.567,
+					75,
+					0.427,
+					81,
+					1.651,
+					90,
+					0.772,
+					91,
+					1.226,
+					98,
+					1.651,
+					112,
+					1.902,
+					118,
+					1.276,
+					120,
+					0.586,
+					124,
+					0.586,
+					125,
+					0.772,
+					165,
+					2.192,
+					172,
+					1.651,
+					201,
+					1.276,
+					224,
+					1.694,
+					231,
+					2.22,
+					232,
+					1.651,
+					233,
+					2.22,
+					234,
+					2.22,
+					235,
+					1.651,
+					236,
+					2.22,
+					237,
+					1.651,
+					238,
+					2.947,
+					239,
+					2.22,
+					240,
+					2.22,
+					241,
+					2.22,
+					242,
+					2.22,
+					243,
+					2.22
+				]
+			],
+			[
+				"title/docs/api/api/reference.md",
+				[
+					2,
+					2.312,
+					120,
+					4.773
+				]
+			],
+			[
+				"module/docs/api/api/reference.md",
+				[
+					2,
+					1.274
+				]
+			],
+			[
+				"group/docs/api/api/reference.md",
+				[
+					3,
+					0.14
+				]
+			],
+			[
+				"body/docs/api/api/reference.md",
+				[
+					0,
+					0.36,
+					2,
+					0.145,
+					4,
+					0.026,
+					5,
+					0.65,
+					6,
+					1.248,
+					8,
+					0.393,
+					10,
+					0.65,
+					13,
+					0.101,
+					14,
+					0.237,
+					15,
+					0.218,
+					16,
+					0.721,
+					18,
+					0.083,
+					19,
+					1.031,
+					20,
+					0.841,
+					21,
+					0.29,
+					22,
+					0.841,
+					23,
+					0.887,
+					32,
+					0.485,
+					33,
+					1.033,
+					34,
+					0.782,
+					35,
+					0.735,
+					37,
+					0.393,
+					38,
+					0.735,
+					40,
+					0.026,
+					42,
+					0.807,
+					44,
+					0.65,
+					45,
+					0.299,
+					47,
+					0.393,
+					48,
+					1.599,
+					49,
+					0.65,
+					51,
+					0.841,
+					52,
+					0.65,
+					53,
+					0.146,
+					55,
+					0.393,
+					57,
+					0.507,
+					58,
+					0.43,
+					64,
+					0.841,
+					66,
+					1.144,
+					68,
+					1.466,
+					69,
+					1.337,
+					73,
+					0.841,
+					74,
+					1.337,
+					76,
+					0.65,
+					78,
+					0.807,
+					83,
+					2.203,
+					85,
+					0.841,
+					91,
+					0.626,
+					92,
+					0.626,
+					94,
+					0.65,
+					96,
+					0.65,
+					99,
+					1.337,
+					100,
+					1.033,
+					101,
+					0.841,
+					102,
+					1.664,
+					103,
+					0.841,
+					104,
+					0.841,
+					105,
+					1.664,
+					106,
+					1.337,
+					107,
+					0.841,
+					108,
+					2.203,
+					113,
+					0.841,
+					114,
+					2.069,
+					115,
+					1.664,
+					116,
+					0.841,
+					118,
+					0.65,
+					119,
+					0.626,
+					120,
+					0.475,
+					123,
+					0.887,
+					124,
+					0.591,
+					125,
+					0.779,
+					126,
+					0.887,
+					127,
+					0.779,
+					128,
+					0.393,
+					131,
+					0.475,
+					134,
+					1.033,
+					137,
+					0.841,
+					139,
+					1.466,
+					140,
+					0.65,
+					146,
+					1.004,
+					147,
+					0.807,
+					153,
+					1.286,
+					154,
+					1.337,
+					164,
+					0.65,
+					190,
+					1.004,
+					193,
+					1.033,
+					196,
+					0.841,
+					199,
+					1.286,
+					203,
+					1.337,
+					204,
+					0.841,
+					205,
+					0.841,
+					206,
+					1.337,
+					208,
+					0.841,
+					210,
+					0.841,
+					212,
+					0.841,
+					232,
+					0.841,
+					235,
+					0.841,
+					237,
+					0.841,
+					244,
+					1.131,
+					245,
+					1.131,
+					246,
+					1.131,
+					247,
+					1.131,
+					248,
+					1.131,
+					249,
+					1.131,
+					250,
+					1.798,
+					251,
+					1.798,
+					252,
+					1.131,
+					253,
+					1.798,
+					254,
+					1.131,
+					255,
+					1.798,
+					256,
+					1.798,
+					257,
+					1.131,
+					258,
+					1.131,
+					259,
+					1.131,
+					260,
+					1.131,
+					261,
+					1.131,
+					262,
+					1.131,
+					263,
+					1.131,
+					264,
+					1.131,
+					265,
+					1.131,
+					266,
+					1.131,
+					267,
+					1.131,
+					268,
+					1.131,
+					269,
+					1.131,
+					270,
+					1.131,
+					271,
+					1.131,
+					272,
+					1.131,
+					273,
+					1.798,
+					274,
+					1.131,
+					275,
+					1.131,
+					276,
+					1.131,
+					277,
+					1.131,
+					278,
+					1.131,
+					279,
+					1.131,
+					280,
+					1.798,
+					281,
+					1.131,
+					282,
+					1.131,
+					283,
+					1.131,
+					284,
+					1.131,
+					285,
+					1.131,
+					286,
+					1.131,
+					287,
+					1.131,
+					288,
+					1.131,
+					289,
+					1.131,
+					290,
+					1.131,
+					291,
+					1.131,
+					292,
+					1.131,
+					293,
+					1.131,
+					294,
+					1.131,
+					295,
+					1.131,
+					296,
+					1.131,
+					297,
+					1.131,
+					298,
+					1.131,
+					299,
+					1.798,
+					300,
+					1.131,
+					301,
+					1.131
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"1",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"accept",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"access",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"actual",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"addit",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"against",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/createTable.md": {}
+					}
+				}
+			],
+			[
+				"ahead",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"allow",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"altern",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"alway",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"api",
+				{
+					"_index": 2,
+					"title": {
+						"docs/api/api/reference.md": {}
+					},
+					"module": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"architectur",
+				{
+					"_index": 294,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"array",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"async",
+				{
+					"_index": 279,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"asynchron",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"atom",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"automat",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"avail",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"back",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"backtick",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"basic",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"batch",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"befor",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"behavior",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"better",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"boolean",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"bound",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"bracket",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"build",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 45,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"callback",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"check",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"class",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"close",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"code",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"column",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"command",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"compar",
+				{
+					"_index": 264,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"comparison",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"compat",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"complet",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"concurr",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"condit",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"connect",
+				{
+					"_index": 32,
+					"title": {
+						"docs/api/api/connect.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"connectasync",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"connectasync(fcallback",
+				{
+					"_index": 82,
+					"title": {
+						"docs/api/api/connectAsync.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"consid",
+				{
+					"_index": 283,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"constant",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {}
+					}
+				}
+			],
+			[
+				"construct",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"constructor",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"conveni",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"cpu",
+				{
+					"_index": 281,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"creat",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"createt",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"createtable(pmeadowtableschema",
+				{
+					"_index": 121,
+					"title": {
+						"docs/api/api/createTable.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {}
+					}
+				}
+			],
+			[
+				"createtables(pmeadowschema",
+				{
+					"_index": 148,
+					"title": {
+						"docs/api/api/createTables.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"creation",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"crud",
+				{
+					"_index": 300,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"databas",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"datatyp",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"db",
+				{
+					"_index": 30,
+					"title": {
+						"docs/api/api/db.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"ddl",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"declar",
+				{
+					"_index": 288,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"defin",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"definit",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"delet",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"deliv",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"descript",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"design",
+				{
+					"_index": 280,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"detail",
+				{
+					"_index": 272,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"diagram",
+				{
+					"_index": 296,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"differ",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"direct",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"directli",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"directori",
+				{
+					"_index": 267,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"discard",
+				{
+					"_index": 268,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"doc",
+				{
+					"_index": 3,
+					"title": {},
+					"module": {},
+					"group": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					},
+					"body": {}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"doubl",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"drop",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"e.g",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"effect",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"enabl",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"end",
+				{
+					"_index": 299,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"enforc",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"ensur",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"entir",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"entri",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"ephemer",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"error",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"event",
+				{
+					"_index": 273,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 298,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"execut",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"exit",
+				{
+					"_index": 270,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"expect",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"extend",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"fabl",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"fail",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"failur",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"fcallback",
+				{
+					"_index": 122,
+					"title": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"featur",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"file",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"five",
+				{
+					"_index": 292,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"flow",
+				{
+					"_index": 295,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"foreign",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"format",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"function",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"further",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"gener",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"generatecreatetablestat",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"generatecreatetablestatement(pmeadowtableschema",
+				{
+					"_index": 202,
+					"title": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"generatedroptablestat",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"generatedroptablestatement(ptablenam",
+				{
+					"_index": 225,
+					"title": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"getter",
+				{
+					"_index": 1,
+					"title": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"given",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"go",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"gracefulli",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"guard",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"guid",
+				{
+					"_index": 291,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"hard",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"idempot",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"identifi",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"ignor",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"immedi",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"insert",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"insid",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"instanc",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"intern",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"invalid",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {}
+					}
+				}
+			],
+			[
+				"iter",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"itself",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"journal",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"known",
+				{
+					"_index": 277,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"layer",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"legaci",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"length",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"level",
+				{
+					"_index": 275,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"librari",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"lifecycl",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"limit",
+				{
+					"_index": 278,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"lock",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"log",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"main",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"manifest",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"map",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"match",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"meadow",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"meadowconnectionsqlit",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"memori",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"messag",
+				{
+					"_index": 276,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"millisecond",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"miss",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"mode",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"modul",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"more",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"mssql",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"multi",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"multipl",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"mysql",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"mysql/mssql",
+				{
+					"_index": 287,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"name",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"none",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"note",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"number",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"onc",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"op",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"open",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"oper",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"order",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"output",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"outsid",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {}
+					}
+				}
+			],
+			[
+				"overrid",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"paramet",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"pass",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"path",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"pattern",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"perform",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"pipelin",
+				{
+					"_index": 297,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"point",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"pool",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"potenti",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"pragma",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"prefer",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"prefix",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"prepar",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"preparedstat",
+				{
+					"_index": 201,
+					"title": {
+						"docs/api/api/preparedStatement.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"primari",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"process",
+				{
+					"_index": 269,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"product",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"properti",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"prototyp",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"provider'",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"purpos",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"queri",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"quick",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"quickstart",
+				{
+					"_index": 290,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"quot",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"race",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"ram",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"raw",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"read",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"read/writ",
+				{
+					"_index": 263,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"receiv",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"recommend",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 120,
+					"title": {
+						"docs/api/api/reference.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"referenc",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"relat",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"remain",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"repeatedli",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"result",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 4,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"roll",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"rollback",
+				{
+					"_index": 266,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"row",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"safe",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"schema",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"second",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {}
+					}
+				}
+			],
+			[
+				"see",
+				{
+					"_index": 271,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"select",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"separ",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"sequenti",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"servic",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"servicetyp",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"signatur",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"significantli",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"simpli",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"singl",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"size",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"skip",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"specifi",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"sql",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"sqlite",
+				{
+					"_index": 0,
+					"title": {
+						"docs/api/api/SQLite.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"sqlite'",
+				{
+					"_index": 265,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"sqlite3",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"sqlite3'",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"state",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"statement",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"step",
+				{
+					"_index": 293,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"still",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {}
+					}
+				}
+			],
+			[
+				"string",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"success",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"support",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"symmetri",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"synchron",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"syntax",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateDropTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"system",
+				{
+					"_index": 274,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"tabl",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"those",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {}
+					}
+				}
+			],
+			[
+				"thread",
+				{
+					"_index": 285,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"throw",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {}
+					}
+				}
+			],
+			[
+				"transact",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"treat",
+				{
+					"_index": 289,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"underli",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"unlik",
+				{
+					"_index": 286,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"unquot",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"updat",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"util",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/SQLite.md": {},
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"via",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/generateDropTableStatement.md": {},
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"wait",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"wal",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"walkthrough",
+				{
+					"_index": 301,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"want",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"warn",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"way",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {}
+					}
+				}
+			],
+			[
+				"whether",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/createTable.md": {},
+						"docs/api/api/createTables.md": {},
+						"docs/api/api/db.md": {},
+						"docs/api/api/generateCreateTableStatement.md": {}
+					}
+				}
+			],
+			[
+				"work",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/preparedStatement.md": {}
+					}
+				}
+			],
+			[
+				"worker",
+				{
+					"_index": 284,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"workload",
+				{
+					"_index": 282,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"wrap",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/db.md": {}
+					}
+				}
+			],
+			[
+				"wrapper",
+				{
+					"_index": 44,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connect.md": {},
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"write",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/connectAsync.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			],
+			[
+				"ye",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/generateCreateTableStatement.md": {},
+						"docs/api/api/reference.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"docs/api/api/SQLite.md": {
+			"Title": "SQLite (getter)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/SQLite.md"
+		},
+		"docs/api/api/connect.md": {
+			"Title": "connect()",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/connect.md"
+		},
+		"docs/api/api/connectAsync.md": {
+			"Title": "connectAsync(fCallback)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/connectAsync.md"
+		},
+		"docs/api/api/createTable.md": {
+			"Title": "createTable(pMeadowTableSchema, fCallback)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/createTable.md"
+		},
+		"docs/api/api/createTables.md": {
+			"Title": "createTables(pMeadowSchema, fCallback)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/createTables.md"
+		},
+		"docs/api/api/db.md": {
+			"Title": "db (getter)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/db.md"
+		},
+		"docs/api/api/generateCreateTableStatement.md": {
+			"Title": "generateCreateTableStatement(pMeadowTableSchema)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/generateCreateTableStatement.md"
+		},
+		"docs/api/api/generateDropTableStatement.md": {
+			"Title": "generateDropTableStatement(pTableName)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/generateDropTableStatement.md"
+		},
+		"docs/api/api/preparedStatement.md": {
+			"Title": "preparedStatement (getter)",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/preparedStatement.md"
+		},
+		"docs/api/api/reference.md": {
+			"Title": "API Reference",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/reference.md"
+		}
+	}
 }

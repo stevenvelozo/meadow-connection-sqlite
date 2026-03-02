@@ -143,6 +143,14 @@ let _Fable = new libFable(
 
 The provider manages the connection lifecycle and exposes the raw `better-sqlite3` `Database` object. All queries go through better-sqlite3's synchronous API — there are no promises or callbacks for individual statements.
 
+## Learn More
+
+- [Quickstart Guide](quickstart.md) -- Five-step walkthrough from install to Meadow ORM integration
+- [Architecture & Design](architecture.md) -- Connection lifecycle, query model, and data flow diagrams
+- [Schema & Table Creation](schema.md) -- Column type mapping and DDL generation
+- [API Reference](api/reference.md) -- Complete reference for every property and method
+- [Full Pipeline Example](examples-pipeline.md) -- End-to-end CRUD pipeline with transactions and aggregates
+
 ## Companion Modules
 
 | Module | Purpose |
@@ -151,3 +159,4 @@ The provider manages the connection lifecycle and exposes the raw `better-sqlite
 | [FoxHound](/meadow/foxhound/) | Query DSL and SQL generation |
 | [meadow-connection-mysql](/meadow/meadow-connection-mysql/) | MySQL connection provider |
 | [meadow-connection-mssql](/meadow/meadow-connection-mssql/) | MSSQL connection provider |
+| [meadow-connection-rocksdb](/meadow/meadow-connection-rocksdb/) | RocksDB key-value provider |
