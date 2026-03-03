@@ -6,6 +6,8 @@ const libFableServiceProviderBase = require('fable-serviceproviderbase');
 
 const libSQLite = require('better-sqlite3');
 
+const libMeadowSchemaSQLite = require('./Meadow-Schema-SQLite.js');
+
 /*
 	Das alt muster:
 
@@ -25,6 +27,9 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 		this.connected = false;
 		this._database = false;
 
+		// Schema provider handles DDL operations (create, drop, index, etc.)
+		this._SchemaProvider = new libMeadowSchemaSQLite(this.fable, this.options, `${this.Hash}-Schema`);
+
 		if (this.fable.settings.hasOwnProperty('SQLite'))
 		{
 			if (this.fable.settings.SQLite.hasOwnProperty('SQLiteFilePath'))
@@ -34,102 +39,96 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 		}
 	}
 
+	get schemaProvider()
+	{
+		return this._SchemaProvider;
+	}
+
 	generateDropTableStatement(pTableName)
 	{
-		return `DROP TABLE IF EXISTS ${pTableName};`;
+		return this._SchemaProvider.generateDropTableStatement(pTableName);
 	}
 
 	generateCreateTableStatement(pMeadowTableSchema)
 	{
-		this.log.info(`--> Building the table create string for ${pMeadowTableSchema.TableName} ...`);
-
-		let tmpPrimaryKey = false;
-		let tmpCreateTableStatement = `--   [ ${pMeadowTableSchema.TableName} ]`;
-		tmpCreateTableStatement += `\nCREATE TABLE IF NOT EXISTS ${pMeadowTableSchema.TableName}\n    (`;
-		for (let j = 0; j < pMeadowTableSchema.Columns.length; j++)
-		{
-			let tmpColumn = pMeadowTableSchema.Columns[j];
-
-			// If we aren't the first column, append a comma.
-			if (j > 0)
-			{
-				tmpCreateTableStatement += `,`;
-			}
-
-			tmpCreateTableStatement += `\n`;
-			switch (tmpColumn.DataType)
-			{
-				case 'ID':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER PRIMARY KEY AUTOINCREMENT`;
-					tmpPrimaryKey = tmpColumn.Column;
-					break;
-				case 'GUID':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT DEFAULT '00000000-0000-0000-0000-000000000000'`;
-					break;
-				case 'ForeignKey':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
-					break;
-				case 'Numeric':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
-					break;
-				case 'Decimal':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} REAL`;
-					break;
-				case 'String':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT NOT NULL DEFAULT ''`;
-					break;
-				case 'Text':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT`;
-					break;
-				case 'DateTime':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT`;
-					break;
-				case 'Boolean':
-					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
-					break;
-				default:
-					break;
-			}
-		}
-		tmpCreateTableStatement += `\n    );`;
-
-		this.log.info(`Generated Create Table Statement: ${tmpCreateTableStatement}`);
-
-		return tmpCreateTableStatement;
+		return this._SchemaProvider.generateCreateTableStatement(pMeadowTableSchema);
 	}
 
 	createTables(pMeadowSchema, fCallback)
 	{
-		this.fable.Utility.eachLimit(pMeadowSchema.Tables, 1,
-			(pTable, fCreateComplete) =>
-			{
-				return this.createTable(pTable, fCreateComplete)
-			},
-			(pCreateError) =>
-			{
-				if (pCreateError)
-				{
-					this.log.error(`Meadow-SQLite Error creating tables from Schema: ${pCreateError}`,pCreateError);
-				}
-				this.log.info('Done creating tables!');
-				return fCallback(pCreateError);
-			});
+		return this._SchemaProvider.createTables(pMeadowSchema, fCallback);
 	}
 
 	createTable(pMeadowTableSchema, fCallback)
 	{
-		let tmpCreateTableStatement = this.generateCreateTableStatement(pMeadowTableSchema);
-		try
-		{
-			this._database.exec(tmpCreateTableStatement);
-			this.log.info(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} Success`);
-			return fCallback();
-		}
-		catch (pError)
-		{
-			this.log.error(`Meadow-SQLite CREATE TABLE ${pMeadowTableSchema.TableName} failed!`, pError);
-			return fCallback(pError);
-		}
+		return this._SchemaProvider.createTable(pMeadowTableSchema, fCallback);
+	}
+
+	getIndexDefinitionsFromSchema(pMeadowTableSchema)
+	{
+		return this._SchemaProvider.getIndexDefinitionsFromSchema(pMeadowTableSchema);
+	}
+
+	generateCreateIndexScript(pMeadowTableSchema)
+	{
+		return this._SchemaProvider.generateCreateIndexScript(pMeadowTableSchema);
+	}
+
+	generateCreateIndexStatements(pMeadowTableSchema)
+	{
+		return this._SchemaProvider.generateCreateIndexStatements(pMeadowTableSchema);
+	}
+
+	createIndex(pIndexStatement, fCallback)
+	{
+		return this._SchemaProvider.createIndex(pIndexStatement, fCallback);
+	}
+
+	createIndices(pMeadowTableSchema, fCallback)
+	{
+		return this._SchemaProvider.createIndices(pMeadowTableSchema, fCallback);
+	}
+
+	createAllIndices(pMeadowSchema, fCallback)
+	{
+		return this._SchemaProvider.createAllIndices(pMeadowSchema, fCallback);
+	}
+
+	// Database Introspection delegation
+
+	listTables(fCallback)
+	{
+		return this._SchemaProvider.listTables(fCallback);
+	}
+
+	introspectTableColumns(pTableName, fCallback)
+	{
+		return this._SchemaProvider.introspectTableColumns(pTableName, fCallback);
+	}
+
+	introspectTableIndices(pTableName, fCallback)
+	{
+		return this._SchemaProvider.introspectTableIndices(pTableName, fCallback);
+	}
+
+	introspectTableForeignKeys(pTableName, fCallback)
+	{
+		return this._SchemaProvider.introspectTableForeignKeys(pTableName, fCallback);
+	}
+
+	introspectTableSchema(pTableName, fCallback)
+	{
+		return this._SchemaProvider.introspectTableSchema(pTableName, fCallback);
+	}
+
+	introspectDatabaseSchema(fCallback)
+	{
+		return this._SchemaProvider.introspectDatabaseSchema(fCallback);
+	}
+
+	generateMeadowPackageFromTable(pTableName, fCallback)
+	{
+		return this._SchemaProvider.generateMeadowPackageFromTable(pTableName, fCallback);
 	}
 
 	connect()
@@ -174,6 +173,7 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 				// According to the documentation, setting this journal mode is very important for performance.
 				// > Though not required, [it is generally important to set the WAL pragma for performance reasons](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/performance.md).
 				this._database.pragma('journal_mode = WAL');
+				this._SchemaProvider.setDatabase(this._database);
 				this.log.info(`Meadow-Connection-SQLite successfully connected to SQLite file [${tmpConnectionSettings.SQLiteFilePath}].`);
 				this.connected = true;
 				return tmpCallback(null, this._database);
