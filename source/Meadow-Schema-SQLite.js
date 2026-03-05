@@ -85,6 +85,12 @@ class MeadowSchemaSQLite extends libFableServiceProviderBase
 				case 'Boolean':
 					tmpCreateTableStatement += `        ${tmpColumn.Column} INTEGER NOT NULL DEFAULT 0`;
 					break;
+				case 'JSON':
+					tmpCreateTableStatement += `        ${tmpColumn.Column} TEXT`;
+					break;
+				case 'JSONProxy':
+					tmpCreateTableStatement += `        ${tmpColumn.StorageColumn} TEXT`;
+					break;
 				default:
 					break;
 			}
@@ -935,6 +941,10 @@ class MeadowSchemaSQLite extends libFableServiceProviderBase
 				return 'DateTime';
 			case 'Boolean':
 				return 'Boolean';
+			case 'JSON':
+				return 'JSON';
+			case 'JSONProxy':
+				return 'JSONProxy';
 			default:
 				return 'String';
 		}
@@ -968,6 +978,10 @@ class MeadowSchemaSQLite extends libFableServiceProviderBase
 				return '';
 			case 'Boolean':
 				return false;
+			case 'JSON':
+				return {};
+			case 'JSONProxy':
+				return {};
 			default:
 				return '';
 		}
