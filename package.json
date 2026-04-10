@@ -42,6 +42,7 @@
     },
     "homepage": "https://github.com/stevenvelozo/meadow-connection-sqlite",
     "devDependencies": {
+        "pict-docuserve": "^0.1.5",
         "quackage": "^1.1.0",
         "retold-harness": "^1.1.2"
     },
