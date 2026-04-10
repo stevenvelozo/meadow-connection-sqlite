@@ -1,7 +1,5 @@
 # Meadow Connection SQLite
 
-<small>v1.0.12</small>
-
 > SQLite database provider for the Meadow data layer
 
 Connect any Fable application to a local SQLite database through the service provider pattern. Built on better-sqlite3 for fast synchronous access with WAL journaling, automatic file creation, and in-memory database support.
