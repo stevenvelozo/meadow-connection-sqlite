@@ -25,7 +25,7 @@ None. Results are delivered via the callback.
 2. Executes the DDL using `db.exec()`
 3. Calls back with `undefined` on success, or an error if the DDL fails
 
-Because the generated DDL uses `CREATE TABLE IF NOT EXISTS`, calling `createTable()` for an already-existing table is a no-op — it does not error.
+Because the generated DDL uses `CREATE TABLE IF NOT EXISTS`, calling `createTable()` for an already-existing table is a no-op -- it does not error.
 
 ## Basic Usage
 
@@ -68,7 +68,7 @@ _Fable.MeadowSQLiteProvider.createTable(tmpBookSchema,
 		_Fable.MeadowSQLiteProvider.createTable(tmpBookSchema,
 			(pError) =>
 			{
-				// No error — "IF NOT EXISTS" handles it
+				// No error -- "IF NOT EXISTS" handles it
 			});
 	});
 ```

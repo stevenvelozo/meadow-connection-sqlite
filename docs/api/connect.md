@@ -22,12 +22,12 @@ Calls `connectAsync()` internally without passing a callback. The provider logs 
 
 ```
 Meadow-Connection-SQLite connect() called without a callback; this could
-result in race conditions — use connectAsync(callback) instead.
+result in race conditions -- use connectAsync(callback) instead.
 ```
 
 ## Why This Exists
 
-`connect()` is provided for legacy compatibility and quick prototyping. Because the underlying better-sqlite3 library opens databases synchronously, the connection actually completes immediately — but the method still logs a warning because the Fable service pattern expects asynchronous lifecycle management.
+`connect()` is provided for legacy compatibility and quick prototyping. Because the underlying better-sqlite3 library opens databases synchronously, the connection actually completes immediately -- but the method still logs a warning because the Fable service pattern expects asynchronous lifecycle management.
 
 ## Usage
 

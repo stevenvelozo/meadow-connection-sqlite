@@ -10,7 +10,7 @@ SQLite databases are single files that require no server process. This makes the
 npm install meadow-connection-sqlite
 ```
 
-Requires Node.js. The `better-sqlite3` dependency compiles a native addon at install time — a C compiler toolchain must be available on the host.
+Requires Node.js. The `better-sqlite3` dependency compiles a native addon at install time -- a C compiler toolchain must be available on the host.
 
 ## Quick Start
 
@@ -54,7 +54,7 @@ _Fable.MeadowSQLiteProvider.connectAsync(
 			return;
 		}
 
-		// Connection is ready — WAL journaling is enabled automatically
+		// Connection is ready -- WAL journaling is enabled automatically
 		_Fable.log.info('SQLite connected!');
 	});
 ```
@@ -88,8 +88,8 @@ console.log(tmpBooks);
 
 The provider reads `SQLiteFilePath` from two sources, in order of priority:
 
-1. **Constructor options** — passed as the second argument to `instantiateServiceProvider()`
-2. **Fable settings** — `fable.settings.SQLite.SQLiteFilePath`
+1. **Constructor options** -- passed as the second argument to `instantiateServiceProvider()`
+2. **Fable settings** -- `fable.settings.SQLite.SQLiteFilePath`
 
 | Setting | Type | Description |
 |---------|------|-------------|
@@ -141,7 +141,7 @@ let _Fable = new libFable(
             └─────────────────────────┘
 ```
 
-The provider manages the connection lifecycle and exposes the raw `better-sqlite3` `Database` object. All queries go through better-sqlite3's synchronous API — there are no promises or callbacks for individual statements.
+The provider manages the connection lifecycle and exposes the raw `better-sqlite3` `Database` object. All queries go through better-sqlite3's synchronous API -- there are no promises or callbacks for individual statements.
 
 ## Learn More
 

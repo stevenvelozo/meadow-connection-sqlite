@@ -26,7 +26,7 @@ On construction:
 - Sets `connected` to `false`
 - Reads `SQLiteFilePath` from `fable.settings.SQLite` if available
 
-The provider is not connected after construction — call `connectAsync()` to open the database.
+The provider is not connected after construction -- call `connectAsync()` to open the database.
 
 ---
 
@@ -66,7 +66,7 @@ Always `'MeadowConnectionSQLite'`.
 | Method | Description |
 |--------|-------------|
 | [`connectAsync(fCallback)`](connectAsync.md) | Open the database and enable WAL (recommended) |
-| [`connect()`](connect.md) | Synchronous wrapper — logs a race-condition warning |
+| [`connect()`](connect.md) | Synchronous wrapper -- logs a race-condition warning |
 
 ---
 

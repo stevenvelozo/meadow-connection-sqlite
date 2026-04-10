@@ -4,7 +4,7 @@ Get a SQLite database connected and running in five steps.
 
 ---
 
-## Step 1 — Install
+## Step 1 -- Install
 
 ```bash
 npm install meadow-connection-sqlite fable
@@ -14,7 +14,7 @@ npm install meadow-connection-sqlite fable
 
 ---
 
-## Step 2 — Configure and Connect
+## Step 2 -- Configure and Connect
 
 ```javascript
 const libFable = require('fable');
@@ -53,7 +53,7 @@ For in-memory databases (useful in tests), set `SQLiteFilePath` to `":memory:"`.
 
 ---
 
-## Step 3 — Run Queries
+## Step 3 -- Run Queries
 
 All queries use the synchronous `better-sqlite3` API via the `db` getter:
 
@@ -101,7 +101,7 @@ console.log(tmpBook.Title);
 
 ---
 
-## Step 4 — Create Tables from Schema
+## Step 4 -- Create Tables from Schema
 
 Instead of writing DDL by hand, pass a Meadow table schema to `createTable()`:
 
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS Book (IDBook INTEGER PRIMARY KEY AUTOINCREMENT, GUIDB
 
 ---
 
-## Step 5 — Meadow ORM Integration
+## Step 5 -- Meadow ORM Integration
 
 Wire the SQLite connection into Meadow for full ORM capabilities:
 

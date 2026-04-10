@@ -35,7 +35,7 @@ DROP TABLE IF EXISTS Book;
 
 ## Executing the Drop
 
-The method only generates the SQL — it does not execute it. Use `db.exec()` to run it:
+The method only generates the SQL -- it does not execute it. Use `db.exec()` to run it:
 
 ```javascript
 let tmpDropSQL = _Fable.MeadowSQLiteProvider.generateDropTableStatement('Book');
@@ -49,7 +49,7 @@ The generated statement uses `IF EXISTS`, so dropping a table that does not exis
 ```javascript
 let tmpDropSQL = _Fable.MeadowSQLiteProvider.generateDropTableStatement('NonExistentTable');
 _Fable.MeadowSQLiteProvider.db.exec(tmpDropSQL);
-// No error — IF EXISTS handles it
+// No error -- IF EXISTS handles it
 ```
 
 ## Comparison with MSSQL

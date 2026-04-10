@@ -22,7 +22,7 @@ The `db` getter is the main entry point for all query operations. All queries go
 ```javascript
 let tmpDB = _Fable.MeadowSQLiteProvider.db;
 
-// DDL — run raw SQL (no return value)
+// DDL -- run raw SQL (no return value)
 tmpDB.exec(`
 	CREATE TABLE IF NOT EXISTS Book (
 		IDBook INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -31,16 +31,16 @@ tmpDB.exec(`
 	)
 `);
 
-// INSERT / UPDATE / DELETE — returns { changes, lastInsertRowid }
+// INSERT / UPDATE / DELETE -- returns { changes, lastInsertRowid }
 let tmpResult = tmpDB.prepare('INSERT INTO Book (Title, Author) VALUES (?, ?)').run('Dune', 'Frank Herbert');
 console.log(tmpResult.lastInsertRowid); // => 1
 console.log(tmpResult.changes);         // => 1
 
-// SELECT single row — returns object or undefined
+// SELECT single row -- returns object or undefined
 let tmpBook = tmpDB.prepare('SELECT * FROM Book WHERE IDBook = ?').get(1);
 console.log(tmpBook.Title); // => 'Dune'
 
-// SELECT all rows — returns array of objects
+// SELECT all rows -- returns array of objects
 let tmpBooks = tmpDB.prepare('SELECT * FROM Book').all();
 console.log(tmpBooks.length); // => 1
 ```

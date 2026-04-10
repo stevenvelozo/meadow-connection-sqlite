@@ -26,7 +26,7 @@ SQLite uses a flexible type system called "type affinity." Unlike MySQL or MSSQL
 - **REAL** -- Used for decimal/floating-point values
 - **TEXT** -- Used for strings, GUIDs, and dates (ISO-8601 format)
 
-The `Size` field on Meadow `String` columns is accepted but has no effect in SQLite — `TEXT` columns have unlimited length.
+The `Size` field on Meadow `String` columns is accepted but has no effect in SQLite -- `TEXT` columns have unlimited length.
 
 ---
 
@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS Book (IDBook INTEGER PRIMARY KEY AUTOINCREMENT, GUIDB
 
 Key behaviors:
 
-- Always uses `CREATE TABLE IF NOT EXISTS` — safe to run repeatedly
+- Always uses `CREATE TABLE IF NOT EXISTS` -- safe to run repeatedly
 - Column names are used as-is (no quoting needed in SQLite)
 - The `ID` column is always `INTEGER PRIMARY KEY AUTOINCREMENT`
 

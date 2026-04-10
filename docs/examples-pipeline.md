@@ -278,7 +278,7 @@ console.log(`Total value: $${tmpStats.TotalValue.toFixed(2)}`);
 tmpDB.close();
 ```
 
-After closing, further queries on this database instance will throw. The provider's `connected` property remains `true` — if you need to reconnect, create a new provider instance.
+After closing, further queries on this database instance will throw. The provider's `connected` property remains `true` -- if you need to reconnect, create a new provider instance.
 
 ---
 

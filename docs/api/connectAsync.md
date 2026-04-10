@@ -60,7 +60,7 @@ Calling `connectAsync()` on an already-connected provider logs an error but does
 _Fable.MeadowSQLiteProvider.connectAsync(
 	(pError, pDatabase) =>
 	{
-		// First connection — succeeds normally
+		// First connection -- succeeds normally
 
 		_Fable.MeadowSQLiteProvider.connectAsync(
 			(pError, pDatabase2) =>
@@ -111,7 +111,7 @@ If `connectAsync()` is called without a callback, the provider logs an error:
 
 ```
 Meadow-Connection-SQLite connect() called without a callback; this could
-result in race conditions — use connectAsync(callback) instead.
+result in race conditions -- use connectAsync(callback) instead.
 ```
 
 ## Related

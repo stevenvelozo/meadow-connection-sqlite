@@ -67,10 +67,10 @@ flowchart LR
 	subgraph "better-sqlite3 Synchronous API"
 		EXEC["db.exec(sql)<br/>DDL / multi-statement"]
 		PREP["db.prepare(sql)"]
-		RUN["stmt.run(params)<br/>→ { changes, lastInsertRowid }"]
-		GET["stmt.get(params)<br/>→ object | undefined"]
-		ALL["stmt.all(params)<br/>→ array of objects"]
-		TXN["db.transaction(fn)<br/>→ atomic wrapper"]
+		RUN["stmt.run(params)<br/>-> { changes, lastInsertRowid }"]
+		GET["stmt.get(params)<br/>-> object | undefined"]
+		ALL["stmt.all(params)<br/>-> array of objects"]
+		TXN["db.transaction(fn)<br/>-> atomic wrapper"]
 	end
 
 	PREP --> RUN
@@ -114,8 +114,8 @@ flowchart TD
 
 Settings priority:
 
-1. **Constructor options** — passed as the second argument to `instantiateServiceProvider()`
-2. **Fable settings** — `fable.settings.SQLite.SQLiteFilePath`
+1. **Constructor options** -- passed as the second argument to `instantiateServiceProvider()`
+2. **Fable settings** -- `fable.settings.SQLite.SQLiteFilePath`
 
 Constructor options take priority, allowing multiple provider instances with different database files.
 

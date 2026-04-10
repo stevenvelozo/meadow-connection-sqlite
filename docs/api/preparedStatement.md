@@ -51,12 +51,12 @@ Use `db` when you want to check for connection state gracefully. Use `preparedSt
 ## Comparison with MSSQL Provider
 
 ```javascript
-// MSSQL — each access creates a new PreparedStatement
+// MSSQL -- each access creates a new PreparedStatement
 let tmpPS = _Fable.MeadowMSSQLProvider.preparedStatement;
 tmpPS.input('id', _Fable.MeadowMSSQLProvider.MSSQL.Int);
 tmpPS.prepare('SELECT * FROM Book WHERE IDBook = @id', ...);
 
-// SQLite — returns the Database handle (prepare directly)
+// SQLite -- returns the Database handle (prepare directly)
 let tmpDB = _Fable.MeadowSQLiteProvider.preparedStatement;
 let tmpStmt = tmpDB.prepare('SELECT * FROM Book WHERE IDBook = ?');
 ```
