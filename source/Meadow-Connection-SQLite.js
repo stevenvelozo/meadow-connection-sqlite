@@ -4,7 +4,22 @@
 */
 const libFableServiceProviderBase = require('fable-serviceproviderbase');
 
-const libSQLite = require('better-sqlite3');
+// Use Node's built-in synchronous SQLite binding (added in v22.5.0; stable
+// in v24+ but available unflagged in current v22 LTS releases — it just
+// emits a single ExperimentalWarning at first import on older v22 minors).
+//
+// Switched from `better-sqlite3` to eliminate the native-compile toolchain
+// from every consumer's Dockerfile (python3 + make + g++ were required to
+// build the better-sqlite3 native addon and broke recurrently on apt GPG
+// signature failures and architecture mismatches across host/container
+// boundaries).  `node:sqlite` ships with the runtime — zero install, no
+// compile, no architecture portability concerns.
+//
+// API surface used here is a near-direct match: `new DatabaseSync(path,
+// opts)`, `.exec(sql)`, `.prepare(sql).all/get/run(...)`.  The one
+// difference is that `node:sqlite` does NOT expose a `.pragma()` helper —
+// pragmas are issued via `.exec('PRAGMA ...')` (see connectAsync below).
+const { DatabaseSync: libSQLite } = require('node:sqlite');
 
 const libMeadowSchemaSQLite = require('./Meadow-Schema-SQLite.js');
 
@@ -170,9 +185,10 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 			{
 				this.log.info(`Meadow-Connection-SQLite connecting to file [${tmpConnectionSettings.SQLiteFilePath}].`);
 				this._database = new libSQLite(tmpConnectionSettings.SQLiteFilePath, tmpConnectionSettings);
-				// According to the documentation, setting this journal mode is very important for performance.
-				// > Though not required, [it is generally important to set the WAL pragma for performance reasons](https://github.com/WiseLibs/better-sqlite3/blob/master/docs/performance.md).
-				this._database.pragma('journal_mode = WAL');
+				// Set WAL journal mode for performance.  node:sqlite has no
+				// `.pragma()` helper (unlike better-sqlite3) — pragmas go
+				// through the standard `.exec()` path.
+				this._database.exec('PRAGMA journal_mode = WAL');
 				this._SchemaProvider.setDatabase(this._database);
 				this.log.info(`Meadow-Connection-SQLite successfully connected to SQLite file [${tmpConnectionSettings.SQLiteFilePath}].`);
 				this.connected = true;
@@ -190,8 +206,9 @@ class MeadowConnectionSQLite extends libFableServiceProviderBase
 	{
 		if (this.connected && this._database)
 		{
-			// In better-sqlite3, prepared statements are created via db.prepare(sql)
-			// This getter is maintained for API consistency with other providers.
+			// Prepared statements are created via `db.prepare(sql)` on the
+			// returned DatabaseSync handle.  Maintained for API consistency
+			// with other Meadow connection providers.
 			return this._database;
 		}
 		else
