@@ -45,9 +45,9 @@
         "node": ">=22.5.0"
     },
     "devDependencies": {
-        "pict-docuserve": "^1.0.0",
+        "pict-docuserve": "^1.0.1",
         "quackage": "^1.2.3",
-        "retold-harness": "^1.1.11"
+        "retold-harness": "^1.1.12"
     },
     "dependencies": {
         "fable-serviceproviderbase": "^3.0.19"
